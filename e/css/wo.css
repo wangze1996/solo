@@ -1,0 +1,296 @@
+@import url(base.css);
+body{
+	background-color: #f5f5f5;
+}
+a{
+	text-decoration: none;
+	
+}
+header{
+	width: 100%;
+	height: 1.55rem;
+	background-color: #009DFF;
+	overflow: hidden;
+}
+header .headerbox1{
+	width: 3.42rem;
+	height: 0.20rem;
+	margin: 0 auto;
+	margin-top: 0.14rem;
+	display: flex;
+}
+header .headerbox1 a{
+	display: block;
+}
+header .headerbox1 .iconfont{
+	font-size: 0.30rem;
+	line-height: 0.20rem;
+	color: white;
+}
+header .headerbox1 p{
+	font-size: 0.20rem;
+	text-align: center;
+	line-height: 0.20rem;
+	margin-left: 1.1rem;
+	color: white;
+}
+header .headerbox2{
+	width: 3.42rem;
+	height: 0.64rem;
+	margin: 0 auto;
+	margin-top: 0.33rem;
+	display: flex;
+	justify-content: space-between; 	 	
+}
+header .headerbox2 .hb2a{
+	display: block;
+	width: 0.64rem;
+	height: 100%;
+	background-color: red;
+	display: flex;
+	border-radius: 50%;
+}
+header .headerbox2 .hb2a img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+header .headerbox2 .hb2b{
+	width: 0.92rem;
+	height: 0.43rem;
+	margin-right: 1.2rem;
+}
+header .headerbox2 .hb2b .hb2ba{
+	width: 100%;
+	height: 0.23rem;
+	font-size: 0.20rem;
+	line-height: 0.22rem;
+	color: white;
+}
+header .headerbox2 .hb2b .hb2bb{
+	width: 100%;
+	height: auto;
+	margin-top: 0.07rem;
+	font-size: 0.12rem;
+	line-height: 0.13rem;
+	color: white;
+}
+header .headerbox2 .hb2b .hb2bc {
+	display: block;
+	width: auto;
+	display: flex;
+}
+header .headerbox2 .icon-you{
+	font-size: 0.26rem;
+	line-height: 0.26rem;
+	color: white;
+}
+.title{
+	width: 100%;
+	height: 0.85rem;
+	display: flex;
+	background-color: white;
+	position: relative;
+}
+.title::before{
+	content: "";
+	display: block;
+	width: 0.01rem;
+	height: 0.86rem;
+	background-color: #F5F5F5;
+	position: absolute;
+	top: 0;
+	left: 1.86rem;
+}
+.title .titlebox{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title .titlebox .tba{
+	width: 100%;
+	height: auto;
+	font-size: 0.20rem;
+	text-align: center;
+	line-height: 0.39rem;
+	color: #FF5F3E;
+}
+.title .titlebox .tbc{
+	width: 100%;
+	height: auto;
+	font-size: 0.20rem;
+	text-align: center;
+	line-height: 0.39rem;
+	color: #6AC20B;
+}
+.title .titlebox .tbc .tbd{
+	font-size: 0.12rem;
+	line-height: 0.39rem;
+	color: #6AC20B;
+}
+.title .titlebox .tba span{
+	font-size: 0.12rem;
+	line-height: 0.39rem;
+	color: #FF5F3E;
+}
+.title .titlebox .tbb{
+	width: 100%;
+	height: 0.19rem;
+	font-size: 0.14rem;
+	line-height: 0.19rem;
+	text-align: center;
+	color: #333;
+}
+.dizhi{
+	display: block;
+	width: 100%;
+	height: 0.44rem;
+	margin-top: 0.12rem;
+	padding-top: 0.12rem;
+	box-sizing: border-box;
+	background-color: white;
+}
+.dizhi .dzbox{
+	width: 3.50rem;
+	height: 0.18rem;
+	margin: 0 auto;
+	display: flex;
+}
+.dizhi .dzbox .icon-dizhi{
+	font-size: 0.20rem;
+	line-height: 0.18rem;
+	margin-right: 0.06rem;
+	color: #4AA5F0;
+}
+.dizhi .dzbox p{
+	font-size: 0.16rem;
+	line-height: 0.18rem;
+	color: #333;
+}
+.shopping{
+	width: 100%;
+	height: 0.90rem;
+	margin-top: 0.12rem;
+	display: flex;
+	background-color: white;
+	position: relative;
+}
+.shopping::before{
+	content: "";
+	width: 3.35rem;
+	height: 0.01rem;
+	display: block;
+	background-color: #F8F8F8;
+	position: absolute;
+	top: 0.43rem;
+	left: 0.42rem;
+}
+.shopping .left{
+	width: 0.42rem;
+	height: 100%;
+}
+.shopping .left .leftbox{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+.shopping .left .leftbox2{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+.shopping .left .leftbox .icon-shangcheng{
+	font-size: 0.20rem;
+	margin-right: 0.10rem;
+	margin-top: 0.18rem;
+	color: #94D94A;
+}
+.shopping .left .leftbox3 .icon-guanjiaowangtubiao11{
+	font-size: 0.20rem;
+	margin-right: 0.10rem;
+	margin-top: 0.18rem;
+	color: #94D94A;
+}
+.shopping .left .leftbox2 .icon-liwu{
+	font-size: 0.26rem;
+	margin-right: 0.06rem;
+	margin-top: -0.02rem;
+	color: #FC7B53;
+}
+.shopping .left .leftbox4{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: flex-end;
+	/* justify-content: center; */
+	align-items: center;
+}
+.shopping .left .leftbox4 .icon-elmyhq{
+	font-size: 0.18rem;
+	margin-right: 0.10rem;
+	margin-bottom: 0.10rem;
+	color: #3CABFF;
+}
+.shopping .right {
+	width: 3.23rem;
+	height: 0.64rem;
+	background-color: white;
+	margin-top: 0.12rem;
+}
+.shopping .right .rightbox{
+	display: block;
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+.shopping .right .rightbox p{
+	font-size: 0.16rem;
+	line-height: 0.33rem;
+	color: #333333;
+}
+.shopping .right .rightbox .iconfont{
+	font-size: 0.20rem;
+	line-height: 0.26rem;
+	color: #BBBBBB;
+}
+footer{
+	width: 100%;
+	height: 0.51rem;
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: white;
+}
+footer .footerbox{
+	width: 25%;
+	height: 0.51rem;
+	color: #333;
+}
+footer .footerbox img{
+	display: block;
+	width: 0.20rem;
+	height: 0.20rem;
+	margin: 0 auto;
+	margin-top: 0.10rem;
+}
+footer .footerbox .ftb1{
+	width: auto;
+	height: 0.11rem;
+	font-size: 0.12rem;
+	line-height: 0.11rem;
+	text-align: center;
+	margin-top: 0.04rem;
+}
+footer .footerbox .ftb2{
+
+	color: #24AAFF;
+}

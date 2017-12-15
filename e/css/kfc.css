@@ -1,0 +1,431 @@
+@import url(base.css);
+header{
+	width: 100%;
+	height: 1.43rem;
+	background-color: #B9B2C1;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+header .headerbox{
+	width: 3.45rem;
+	height: 0.41rem;
+	display: flex;
+	justify-content: space-between;
+}
+header .headerbox .left{
+	width: 0.17rem;
+	height: 100%;
+	display: flex;
+}
+header .headerbox .left .iconfont{
+	font-size: 0.20rem;
+	line-height: 0.41rem;
+	color: #eee;
+}
+header .headerbox .right{
+	width: 0.25rem;
+	height: 100%;
+	display: flex;
+}
+header .headerbox .right .iconfont{
+	font-size: 0.20rem;
+	width: 0.20rem;
+	line-height: 0.41rem;
+	color: #eee;
+}
+header .headercon{
+	width: 3.45rem;
+	height: 0.67rem;
+	display: flex;
+	justify-content: space-between;
+	/* margin-bottom: 0.24rem; */
+}
+header .headercon .img{
+	width: 0.66rem;
+	height: 100%;
+}
+header .headercon .img img{
+	width: 0.66rem;
+	height: 100%;
+}
+header .headercon .con{
+	width: 2.71rem;
+	height: 100%;
+}
+header .headercon .con .con1{
+	width: 100%;
+	height: 0.22rem;
+	font-size:0.20rem;
+	line-height: 0.22rem;
+	color: white;
+}
+header .headercon .con .con2{
+	width: 1.73rem;
+	height: 0.12rem;
+	font-size: 0.11rem;
+	color: white;
+	margin-top: 0.06rem;
+}
+header .headercon .con .con3{
+	width: auto;
+	height: 0.14rem;
+	font-size: 0.11rem;
+	color: white;
+	line-height: 0.14rem;
+	margin-top: 0.11rem;
+}
+header .headerend{
+	width: 3.51rem;
+	height: 0.18rem;
+	display: flex;
+	justify-content: space-between;
+}
+header .headerend .hde1{
+	width: 0.14rem;
+	height: 0.15rem;
+	background-color: #F07373;
+	font-size: 0.10rem;
+	color: white;
+	line-height: 0.15rem;
+	text-align: center;
+}
+header .headerend .hde2{
+	width: auto;
+	height: 0.15rem;
+	font-size: 0.10rem;
+	color: white;
+	line-height: 0.15rem;
+	text-align: center;
+	margin-right: 1.80rem;
+}
+header .headerend .hde3{
+	width: auto;
+	height: 0.15rem;
+	font-size: 0.10rem;
+	line-height: 0.15rem;
+	text-align: center;
+	color: white;
+	position: relative;
+}
+header .headerend .hde3 .icon-you1{
+	position: absolute;
+	top: 0.01rem;
+	left: 0.33rem;
+}
+.list{
+	width: 100%;
+	height: 0.40rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+.list .listbox{
+	width: 0.29rem;
+	height: 0.26rem;
+	border-bottom: 0.03rem solid #85CAFF;
+	box-sizing: border-box;
+	font-size: 0.14rem;
+	line-height: 0.16rem;
+	text-align: center;
+	color: #85CAFF;
+}
+.list .listbox1{
+	color: #666666;
+	border: none;
+	/* border-bottom: 0.03rem solid #666666; */
+}
+.list .listbox2{
+	color: #666666;
+	border: none;
+	/* border-bottom: 0.03rem solid #666666; */
+}
+.content{
+	width: 100%;
+	height: auto;
+	/* background-color: red; */
+	display: flex;
+	justify-content: space-between;
+}
+.content .left{
+	width: 0.78rem;
+	height: 100%;
+}
+.content .leftbox{
+	width: 100%;
+	height: 0.50rem;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content .leftbox .leftboox{
+	width: 0.63rem;
+	height: 0.15rem;
+	display: flex;
+}
+.content .leftbox .leftboox img{
+	width: 0.10rem;
+	height: 0.14rem;
+}
+.content .leftbox .leftboox p{
+	width: auto;
+	height: 0.15rem;
+	font-size: 0.14rem;
+	line-height: 0.15rem;
+	text-align: center;
+	margin-left: 0.03rem;
+	color: #6D6D6D;
+}
+.content .leftbox:nth-of-type(2){
+	background-color: #F8F8F8;
+	height: 0.53rem;
+}
+.content .leftbox:nth-of-type(3){
+	background-color: #F8F8F8;
+	height: 0.67rem;
+}
+.content .leftbox:nth-of-type(4){
+	background-color: #F8F8F8;
+	height: 0.66rem;
+}
+.content .leftbox:nth-of-type(5){
+	background-color: #F8F8F8;
+	height: 0.51rem;
+}
+.content .leftbox:nth-of-type(6){
+	background-color: #F8F8F8;
+	height: 0.51rem;
+}
+.content .leftbox:nth-of-type(7){
+	background-color: #F8F8F8;
+	height: 0.68rem;
+}
+.content .leftbox span{
+	width: auto;
+	height: auto;
+	font-size: 0.13rem;
+	line-height: 0.20rem;
+	color: #6D6D6D;
+}
+.leftbox:nth-of-type(5) .leftbooox{
+	width: auto;
+	height: 0.13rem;
+	margin-right: 0.18rem;
+	font-size: 0.14rem;
+	line-height: 0.13rem;
+	text-align: center;
+	color: #6D6D6D;
+}
+.leftbox:nth-of-type(6) .leftbooox{
+	width: auto;
+	height: 0.13rem;
+	margin-right: 0.06rem;
+	font-size: 0.13rem;
+	line-height: 0.13rem;
+	text-align: center;
+	color: #6D6D6D;
+}
+.leftbox:nth-of-type(7) span{
+	width: auto;
+	height: auto;
+	font-size: 0.13rem;
+	line-height: 0.20rem;
+	color: #6D6D6D;
+}
+.leftbox:nth-of-type(4) span{
+	width: auto;
+	height: auto;
+	font-size: 0.13rem;
+	line-height: 0.20rem;
+	color: #6D6D6D;
+	margin-left: 0.04rem;
+}
+.content .right{
+	width: 2.95rem;
+	height: 100%;
+}
+.content .right{
+	width: 2.95rem;
+	height: 100%;
+	padding-left: 0.08rem;
+	box-sizing: border-box;
+}
+.content .rightbox{
+	width: 100%;
+	height: 1.48rem;
+	/* background-color: blue; */
+}
+.content .rightbox .rb1{
+	width: 100%;
+	height: 0.30rem;
+	display: flex;
+	margin-top: 0.09rem;
+	border-bottom: 0.01rem solid #FBFBFB;
+	box-sizing: border-box;
+	padding-top: 0.02rem;
+}
+.content .rightbox .rb1 .rb11{
+	width: auto;
+	height: 0.12rem;
+	color: #787878;
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	text-align: center;
+}
+.content .rightbox .rb1 .rb12{
+	font-size: 0.10rem;
+	line-height: 0.12rem;
+	margin-left: 0.06rem;
+	color: #CCCCCC;
+}
+.content .rightbox .rb2{
+	width: 100%;
+	height: 1.18rem;
+	padding-top: 0.10rem;
+	box-sizing: border-box;
+	display: flex;
+}
+.content .rightbox .rb2 img{
+	width: 100%;
+	height: 100%;
+}
+.content .rightbox .rb2 .rb21{
+	width: 0.78rem;
+	height: 0.76rem;
+}
+.content .rightbox .rb2 .rb22{
+	width: 2.12rem;
+	height: 1.08rem;
+	padding-left: 0.09rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.content .rightbox .rb2 .rb22 .rb22a{
+	width: 100%;
+	height: 0.16rem;
+	font-size: 0.16rem;
+	line-height: 0.16rem;
+	color: #333;
+}
+.content .rightbox .rb2 .rb22 .rb22b{
+	width: 100%;
+	height: 0.27rem;
+	font-size: 0.10rem;
+	line-height: 0.27rem;
+	color: #C5C5C5;
+}
+.content .rightbox .rb2 .rb22 .rb22c{
+	width: auto;
+	height: 0.11rem;
+	font-size: 0.12rem;
+	line-height: 0.11rem;
+	color: #666666;
+}
+.content .rightbox .rb2 .rb22 .rb22d{
+	width: 1.08rem;
+	height: 0.13rem;
+	background-image:-webkit-linear-gradient(left,#FF7015,#FF4514 20%);
+	display: flex;
+	margin-top: 0.05rem;
+}
+.content .rightbox .rb2 .rb22 .rb22d .rb22dbox{
+	width: 0.21rem;
+	height: 100%;
+	font-size: 0.12rem;
+	line-height: 0.13rem;
+	text-align: center;
+	color: white;
+}
+.content .rightbox .rb2 .rb22 .rb22d .rb22dbox1{
+	width: auto;
+	height: 100%;
+	border-top: 0.01rem solid #FFA897;
+	border-bottom: 0.01rem solid #FFA897;
+	border-left: 0.01rem solid #FFA897;
+	border-right: 0.02rem solid #FFA897;
+	box-sizing: border-box;
+	font-size: 0.12rem;
+	line-height: 0.13rem;
+	color: #FFA897;
+}
+.content .rightbox .rb2 .rb22 .rb22e{
+	width: 0.94rem;
+	height: 0.12rem;
+	margin-top: 0.06rem;
+	display: flex;
+}
+.content .rightbox .rb2 .rb22 .rb22e span{
+	font-size: 0.10rem;
+	line-height: 0.20rem;
+	color: #FF6600;
+}
+.content .rightbox .rb2 .rb22 .rb22e .rb22e1{
+	font-size: 0.20rem;
+	line-height: 0.12rem;
+	color: #FF6600;
+}
+.content .rightbox .rb2 .rb22 .rb22e .rb22e2{
+	font-size: 0.10rem;
+	line-height: 0.20rem;
+	text-decoration: line-through;
+	color: #666666;
+}
+.content .rightbox .rb2 .rb22 .iconfont{
+	color: #2395FF;
+	position: absolute;
+	top: 0.78rem;
+	right: 0.16rem;
+}
+.content{
+	margin-bottom: 0.40rem;
+}
+.end{
+	width: 100%;
+	height: 0.49rem;
+	background-color: #505052;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+}
+.endbox{
+	width: 0.52rem;
+	height: 0.52rem;
+	background-color: #3490E8;
+	border: 0.04rem solid #747474;
+	border-radius: 50%;
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 0.10rem;
+	left: 0.08rem;
+}
+.endbox img{
+	display: block;
+	width: 0.30rem;
+	height: 0.30rem;
+	margin: 0 auto;
+	margin-top: 0.08rem;
+}
+.endbox2{
+	width: 1.92rem;
+	height: 100%;
+	margin-left: 0.80rem;
+	font-size: 0.16rem;
+	padding-top: 0.04rem;
+	box-sizing: border-box;
+	color: #eee;
+}
+.endbox2 span{
+	font-size: 0.10rem;
+	color: #A4A4A4;
+}
+.endbox3{
+	width: 1.06rem;
+	height: 100%;
+	font-size: 0.16rem;
+	text-align: center;
+	line-height: 0.52rem;
+	background-color: #72EA81;
+	color: #eee;
+}
